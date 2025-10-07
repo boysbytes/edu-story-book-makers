@@ -83,6 +83,40 @@ vercel env add GENERATIVE_API_KEY
 vercel --prod
 ```
 
+## 📺 Embedding in Iframes
+
+This app is designed to be embedded in iframes for integration into learning management systems or educational platforms.
+
+### Recommended Iframe Configuration
+
+**Height**: `900px` (provides space for header, chat interface, and growing content)
+
+**Example HTML**:
+```html
+<iframe 
+  src="https://your-app-url.vercel.app" 
+  width="100%" 
+  height="900px" 
+  frameborder="0"
+  title="Story Book Creator">
+</iframe>
+```
+
+### Why 900px?
+
+- **Header Section**: ~120px (mascot, title, progress indicators)
+- **Main Content**: ~600px (chat interface with scrollable area, input section)
+- **Story Preview**: Variable height (grows as sentences are completed)
+- **Spacing**: ~80px (padding and margins)
+- **Dynamic Growth**: Accommodates expanding chat history and story content
+
+### Technical Notes
+
+- **CORS**: Already configured for same-origin embedding
+- **Responsive**: Adapts to iframe width while maintaining touch-friendly design
+- **CSP**: `frame-ancestors *` allows embedding from any domain
+- **Mobile-Friendly**: 72px minimum touch targets for tablet use
+
 ## 🎨 UI Design System
 
 This app follows a comprehensive design system optimized for young learners:
