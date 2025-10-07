@@ -1,6 +1,10 @@
 # 📚 Story Book Creator - Educational Chatbot
 
+This chatbot is used in Project C of AI Toolkit for Students.
+
 An interactive story book creation app for Malaysian Year 1-4 students (ages 6-10). Students build grammatically correct sentences with AI validation and generate custom illustrations for their stories.
+
+Vercel page: https://vercel.com/boysbytes-projects/edu-story-book-makers
 
 ## 🌟 Features
 
