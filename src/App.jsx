@@ -606,12 +606,12 @@ export default function App() {
                     }}
                     placeholder="Type your sentence here..."
                     disabled={phase === 'validating'}
-                    className="flex-grow px-4 py-3 border-4 border-indigo-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-yellow-400 text-lg font-semibold shadow-inner disabled:bg-gray-100 disabled:placeholder-gray-400"
+                    className="flex-1 min-w-0 px-4 py-3 border-4 border-indigo-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-yellow-400 text-lg font-semibold shadow-inner disabled:bg-gray-100 disabled:placeholder-gray-400"
                   />
                   <button
                     onClick={() => handleSubmitSentence(inputText)}
                     disabled={phase === 'validating' || !inputText.trim()}
-                    className="rounded-2xl px-7 py-3 min-h-[72px] text-xl font-black transition-all duration-200 transform shadow-xl border-4 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white hover:scale-[1.03] active:scale-[0.97] focus:outline-none focus:ring-4 focus:ring-yellow-400 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                    className="flex-shrink-0 w-28 rounded-2xl py-3 min-h-[72px] text-xl font-black transition-all duration-200 transform shadow-xl border-4 bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white hover:scale-[1.03] active:scale-[0.97] focus:outline-none focus:ring-4 focus:ring-yellow-400 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                   >
                     ✨ Send
                   </button>
