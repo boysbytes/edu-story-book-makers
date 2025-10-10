@@ -29,7 +29,7 @@ const SENTENCE_TASKS = [
       describing: ["kind", "brave", "happy"],
       action: ["is", "helps", "sees"]
     },
-    imagePromptTemplate: "Full-colour, child-friendly cartoon of {sentence}. Malaysian primary school setting, Year 2 student, bright and cheerful, age-appropriate style, 3D render.",
+    imagePromptTemplate: "Full-colour, child-friendly cartoon of {sentence}. Malaysian primary school setting, Year 2 student, bright and cheerful, age-appropriate style, 3D render. Do not generate text in the image.",
     successMessage: "Wonderful sentence! Let me create a picture for you... ✨"
   },
   {
@@ -41,7 +41,7 @@ const SENTENCE_TASKS = [
       describing: ["small", "blue", "sad"],
       action: ["looks", "has", "is"]
     },
-    imagePromptTemplate: "Full-colour, child-friendly cartoon of {sentence}. School garden setting, Malaysian primary school environment, gentle and caring mood, age-appropriate style, 3D render.",
+    imagePromptTemplate: "Full-colour, child-friendly cartoon of {sentence}. School garden setting, Malaysian primary school environment, gentle and caring mood, age-appropriate style, 3D render. Do not generate text in the image.",
     successMessage: "Beautiful sentence! Creating your picture... 🎨"
   },
   {
@@ -53,7 +53,7 @@ const SENTENCE_TASKS = [
       describing: ["happy", "kind", "little"],
       action: ["gives", "helps", "smiles"]
     },
-    imagePromptTemplate: "Full-colour, child-friendly cartoon of {sentence}. Malaysian primary school garden, showing caring interaction between girl and bird, happy and positive mood, age-appropriate style, 3D render.",
+    imagePromptTemplate: "Full-colour, child-friendly cartoon of {sentence}. Malaysian primary school garden, showing caring interaction between girl and bird, happy and positive mood, age-appropriate style, 3D render. Do not generate text in the image.",
     successMessage: "Perfect sentence! Making your final picture... 🌟"
   }
 ];
